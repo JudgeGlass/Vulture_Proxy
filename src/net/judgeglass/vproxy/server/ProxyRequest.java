@@ -10,6 +10,9 @@ public class ProxyRequest {
     private ServerSocket serverSocket;
     private int port;
     private boolean isRunning;
+    
+    public static String hostname = "tn.judgeglass.net";
+    public static int hostport = 5209;
 
     public ProxyRequest(int port){
         this.port = port;
